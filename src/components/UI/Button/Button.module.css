@@ -1,0 +1,22 @@
+.btn {
+    min-height: 40px;
+
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: salmon;
+
+    background: transparent;
+    border: 1px salmon solid;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 0 5px;
+    min-width: 40px;
+
+    transition: all 200ms linear;
+}
+
+.btn:hover {
+    background: salmon;
+    color: white;
+}

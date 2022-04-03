@@ -1,0 +1,45 @@
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    margin: 200px 0;
+}
+
+.appBody {
+    border: 1px solid salmon;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    padding: 10px 15px;
+    max-height: 700px;
+    overflow: auto;
+}
+
+.appBodyHeader {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.appBodyHeader span {
+    cursor: pointer;
+    font-size: 30px;
+    padding: 0 5px;
+    color: salmon;
+    font-weight: 700;
+}
+
+.appBodyHeader *:not(:last-child) {
+    margin-right: 15px;
+}
+
+.appBodyTodos {
+    margin-top: 20px;
+}

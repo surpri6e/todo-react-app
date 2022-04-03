@@ -1,0 +1,15 @@
+.sel {
+    min-width: 100px;
+    min-height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+    color: salmon;
+    border: 1px solid salmon;
+    background-color: transparent;
+    text-align: center;
+}
+
+.sel:focus {
+    outline: 0px;
+}

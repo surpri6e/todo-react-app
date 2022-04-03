@@ -1,0 +1,9 @@
+.createTodo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.createTodo *:not(:last-child) {
+    margin-bottom: 13px;
+}

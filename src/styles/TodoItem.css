@@ -1,0 +1,59 @@
+.todoItem {
+    min-height: 34px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 13px;
+}
+
+.todoItem *:not(:last-child) {
+    margin-right: 10px;
+}
+
+.todoItemCompleted {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todoItemCompleted span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid salmon;
+    cursor: pointer;
+}
+
+.todoItemCompleted span[data-todo-completed] {
+    background-color: salmon;
+}
+
+.todoItemBody {
+    width: 70%;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.todoItemBody span {
+    font-weight: 700;
+    color: salmon;
+}
+
+.todoItemTime {
+    width: 20%;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    line-height: 100%;
+    border: 1px solid salmon;
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

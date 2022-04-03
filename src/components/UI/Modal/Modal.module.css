@@ -1,0 +1,30 @@
+.modalBlock {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 5;
+}
+
+.modalContent {
+    padding: 30px;
+    background-color: white;
+    border: 1px solid salmon;
+    min-width: 500px;
+}
+
+@media (max-width: 600px) {
+    .modalContent {
+        min-width: 150px;
+    }
+}
+
+.modalBlock.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

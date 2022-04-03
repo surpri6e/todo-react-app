@@ -1,0 +1,37 @@
+.overduedTodoItem {
+    color: white;
+    min-height: 34px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 13px;
+    background: rgba(255, 0, 51, 0.8);
+}
+
+.overduedTodoItem  *:not(:last-child) {
+    margin-right: 10px;
+}
+
+.overduedTodoItemBody {
+    width: 70%;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: center;
+}
+
+.overduedTodoItemTime {
+    width: 30%;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    line-height: 100%;
+    border: 1px solid white;
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
